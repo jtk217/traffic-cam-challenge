@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     var infoWindow = new google.maps.InfoWindow();
 
-    $.getJSON('http://data.seattle.gov/resource/65fc-btcc.json')
+    $.getJSON('https://data.seattle.gov/resource/65fc-btcc.json')
         .done(function (data) {
             data.forEach(function (camera) {
                 var marker = new google.maps.Marker({
